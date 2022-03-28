@@ -1,7 +1,8 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import {Text, TextInput, View, Button, ImageBackground } from 'react-native'
 import { StatusBar } from 'expo-status-bar';
 import tw from 'twrnc'
+
 
 
 
@@ -15,7 +16,18 @@ export default function Home() {
     const [hour, setHour] = useState(0)
     const [day, setDay] = useState(1)
 
-  
+
+    // Time clock to add each second as if it was 1 hour, and add 1 day after 24 seconds elapse 
+    useEffect(() => {
+    setTimeout(() => {
+     if(hour < 23){
+       setHour(hour + 1)
+     } else {
+       setHour(0)
+       setDay(day + 1)
+     }
+    }, 1000)
+  })
 
 
     return (<>
