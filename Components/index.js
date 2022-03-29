@@ -52,7 +52,7 @@ export default function Home() {
       setTimeout(() => {
         if (hour < 23) {
           setHour(hour + 1);
-          console.log(multiplyer)
+          console.log(multiplyerr)
         } else {
           setHour(0);
           setDay(day + 1);
