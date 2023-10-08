@@ -1,4 +1,4 @@
-# Oil Field-Game
+# Oil Field Game
 Built with React Native, Idle oilfield simulator
 
 ## Setup Instructions
