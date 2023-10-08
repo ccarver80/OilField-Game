@@ -21,6 +21,6 @@ Every day the market price can go up or down, Be smart when to drill and not to 
 ### Add upgrades like:
 * Drill Well - $100,000
 * Acidize the wells you currently have to increase production - $50,000
-* Influence the oil price by 20%! - $10,000
-* Drill Better Wells, Each new well drilled increased prod. by 20% when drilled - $50,0000
+* Influence the oil price by +20%! - $10,000
+* Drill Better Wells, Each new well drilled production is increase by 20% when drilled - $50,0000
 * Increase clock speed, speeds up clock by 20%
